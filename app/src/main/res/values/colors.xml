@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="teal_700">#00796B</color>
+    <color name="teal_800">#00695C</color>
+
+
+    <!-- Deeper shades -->
+    <color name="teal_900">#004D40</color>   <!-- official Material Teal-900 -->
+    <color name="teal_950">#00332E</color>   <!-- custom extra‐deep -->
+
+    <!-- Lighter shades -->
+    <color name="teal_600">#00897B</color>   <!-- Material Teal-600, just above 700 -->
+    <color name="teal_500">#009688</color>
+    <color name="text_yellow">#FFD24F</color>
+    <color name="nav_item">#5E5E5E</color>   <!-- Material Teal-500, lighter still -->
+</resources>

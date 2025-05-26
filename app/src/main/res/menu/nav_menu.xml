@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    <item-->
+<!--        android:id="@+id/menu_homes"-->
+<!--        android:title="Home"-->
+<!--        android:icon="@drawable/ic_home" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/menu_pending"-->
+<!--        android:title="Pending Request"-->
+<!--        android:icon="@drawable/ic_pending" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/menu_create"-->
+<!--        android:title="Create Request"-->
+<!--        android:icon="@drawable/ic_create" />-->
+</menu>
