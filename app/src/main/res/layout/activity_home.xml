@@ -32,17 +32,17 @@
             <!-- Hamburger Icon -->
 
             <TextView
-                android:id="@+id/tvNotifLabel"
+                android:id="@+id/tvWorkLabel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="48dp"
-                android:text="Notif"
+                android:layout_marginEnd="40dp"
+                android:text="Jobs"
                 android:textColor="@color/teal_800"
 
                 android:textSize="14sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toStartOf="@+id/tvNotifLabel2"
-                app:layout_constraintTop_toBottomOf="@+id/notifications" />
+                app:layout_constraintTop_toBottomOf="@+id/workplace" />
 
             <TextView
                 android:id="@+id/tvNotifLabel5"
@@ -53,14 +53,14 @@
                 android:textColor="@color/teal_800"
                 android:textSize="14sp"
                 android:textStyle="bold"
-                app:layout_constraintEnd_toStartOf="@+id/tvNotifLabel"
+                app:layout_constraintEnd_toStartOf="@+id/tvWorkLabel"
                 app:layout_constraintTop_toBottomOf="@+id/find_job" />
 
             <TextView
                 android:id="@+id/tvNotifLabel2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Job"
+                android:text="Create"
                 android:textColor="@color/teal_800"
 
                 android:textSize="14sp"
@@ -74,7 +74,7 @@
                 android:id="@+id/tvNotifLabel3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="56dp"
+                android:layout_marginStart="48dp"
                 android:text="CV"
 
                 android:textColor="@color/teal_800"
@@ -128,7 +128,7 @@
                 app:layout_constraintVertical_bias="0.176" />
 
             <ImageButton
-                android:id="@+id/notifications"
+                android:id="@+id/workplace"
                 android:layout_width="34dp"
                 android:layout_height="34dp"
                 android:layout_marginEnd="44dp"
@@ -136,7 +136,7 @@
                 android:background="@color/white"
                 android:contentDescription="Menu"
                 android:scaleType="fitCenter"
-                android:src="@drawable/ic_notif"
+                android:src="@drawable/ic_cv"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/create_jobs"
                 app:layout_constraintTop_toTopOf="parent"
@@ -153,7 +153,7 @@
                 android:scaleType="fitCenter"
                 android:src="@drawable/ic_home"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/notifications"
+                app:layout_constraintEnd_toStartOf="@+id/workplace"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.176" />
 
@@ -166,7 +166,7 @@
                 android:background="@color/white"
                 android:contentDescription="Menu"
                 android:scaleType="fitCenter"
-                android:src="@drawable/ic_cv"
+                android:src="@drawable/ic_application"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/create_jobs"
                 app:layout_constraintTop_toTopOf="parent"

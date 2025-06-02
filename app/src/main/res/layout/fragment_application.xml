@@ -8,20 +8,10 @@
     android:layout_height="match_parent"
     android:padding="16dp">
 
-    <!-- 1) Search icon -->
 
-    <!-- 2) Search input with custom SVG background -->
-
-    <!-- 3) “Apply” as clickable TextView -->
-
-    <!-- 4a) Job count -->
-
-    <!-- 4b) Subtitle -->
-
-    <!-- 5) Empty RecyclerView placeholder -->
 
     <TextView
-        android:id="@+id/tvJobCount"
+        android:id="@+id/tvAppCount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Applicants"
@@ -33,7 +23,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvJobs"
+        android:id="@+id/rvApplications"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="20dp"
@@ -42,6 +32,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvJobCount" />
+        app:layout_constraintTop_toBottomOf="@+id/tvAppCount" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 

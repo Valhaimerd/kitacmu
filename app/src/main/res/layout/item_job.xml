@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:background="@drawable/ic_job_panel"
+    android:padding="16dp"
+    android:textAlignment="textStart">
+
+    <!-- 1) Image placeholder (ignore loading for now) -->
+
+    <!-- 2) Title -->
+
+    <!-- 3) Owner -->
+
+    <!-- 4) Salary + Time row -->
+
+    <!-- 5) Location row -->
+
+    <View
+        android:id="@+id/ivJobImage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="4dp"
+        android:background="@android:color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvJobTitle"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Dishwasher"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.212"
+        app:layout_constraintStart_toEndOf="@+id/ivJobImage"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvJobOwner"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Marta A. Maritisa"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.202"
+        app:layout_constraintStart_toEndOf="@+id/ivJobImage"
+        app:layout_constraintTop_toBottomOf="@id/tvJobTitle" />
+
+    <ImageView
+        android:id="@+id/ivSalaryIcon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/ic_salary"
+        app:layout_constraintStart_toEndOf="@+id/ivJobImage"
+        app:layout_constraintTop_toBottomOf="@id/tvJobOwner" />
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="[Monday-Friday, 1PM]"
+        android:textColor="@color/text_yellow"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvSalary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/tvSalary" />
+
+    <TextView
+        android:id="@+id/tvSalary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="₱ 300"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivSalaryIcon"
+        app:layout_constraintStart_toEndOf="@+id/ivSalaryIcon"
+        app:layout_constraintTop_toBottomOf="@+id/tvJobOwner"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <!-- 6) Duration row -->
+
+    <TextView
+        android:id="@+id/tvLocation"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="CMU Market"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.408"
+        app:layout_constraintStart_toEndOf="@+id/ivJobImage"
+        app:layout_constraintTop_toBottomOf="@+id/tvDuration" />
+
+    <ImageView
+        android:id="@+id/ivDurationIcon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/ic_clock"
+        app:layout_constraintStart_toEndOf="@+id/ivJobImage"
+        app:layout_constraintTop_toBottomOf="@+id/ivSalaryIcon" />
+
+    <TextView
+        android:id="@+id/tvDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="4 Hours"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivDurationIcon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/ivDurationIcon"
+        app:layout_constraintTop_toBottomOf="@+id/tvSalary"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
